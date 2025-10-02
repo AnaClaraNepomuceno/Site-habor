@@ -1,0 +1,113 @@
+/* -------------------
+   Estilos Gerais
+   ------------------- */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000; /* Fundo preto para alto contraste */
+    color: #fff; /* Texto branco */
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+a {
+    color: #00ff00; /* Links em verde brilhante para se destacarem */
+}
+
+/* -------------------
+   Layout
+   ------------------- */
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.content-wrapper {
+    padding: 20px 0;
+}
+
+/* -------------------
+   Cabeçalho
+   ------------------- */
+header {
+    text-align: center;
+    padding: 20px 0;
+}
+
+header .center-and-space-content img {
+    border-radius: 15px; /* Adiciona cantos arredondados */
+}
+
+header h1 {
+    margin-top: 10px;
+}
+
+/* -------------------
+   Navegação
+   ------------------- */
+nav {
+    padding: 10px 0;
+    border-top: 1px solid #333;
+    border-bottom: 1px solid #333;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+/* -------------------
+   Conteúdo Principal
+   ------------------- */
+main section {
+    margin-bottom: 30px;
+}
+
+main h2 {
+    border-bottom: 2px solid #00ff00;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+/* -------------------
+   Rodapé
+   ------------------- */
+footer {
+    text-align: center;
+    padding: 20px 0;
+    border-top: 1px solid #333;
+    margin-top: 20px;
+}
+
+.contact-info p {
+    margin: 5px 0;
+}
+
+/* -------------------
+   Acessibilidade
+   ------------------- */
+a:focus, button:focus, [tabindex]:not([tabindex="-1"]):focus {
+    outline: 3px solid #ff0; /* Destaque amarelo sólido e espesso */
+    box-shadow: 0 0 10px #ff0; /* Sombra para maior visibilidade */
+}
+
+/* -------------------
+   Classes Utilitárias
+   ------------------- */
+.center-and-space-content {
+    text-align: center;
+    padding: 10px;
+}
